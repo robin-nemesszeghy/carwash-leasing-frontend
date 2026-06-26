@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-b from-slate-50 to-white py-20 lg:py-32">
+    <section className="bg-gradient-to-b from-slate-50 to-white min-h-screen flex flex-col justify-center items-center py-12">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-slate-900 mb-6">
           Your Car Wash Should Drive Your Store’s Growth—
