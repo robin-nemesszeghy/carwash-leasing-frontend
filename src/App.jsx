@@ -26,7 +26,7 @@ const Hero = () => {
 
 const WhatWeDo = () => {
   return (
-    <section className="py-20 bg-white border-b border-slate-100">
+    <section className="py-20 pb-44 bg-white border-b border-slate-100">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-sm font-bold tracking-widest text-blue-600 uppercase mb-4">
           What We Do
