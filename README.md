@@ -49,12 +49,12 @@ The `washBays` array accepts an array of objects. Each object represents a disti
 
 \`\`\`javascript
 const washBays = [
-{
-id: 1,
-title: "Tunnel / Bay",
-before: "/site1-before.png",
-after: "/site1-after.jpg",
-}
+  {
+    id: 1,
+    title: "Tunnel / Bay",
+    before: "/site1-before.png",
+    after: "/site1-after.jpg",
+  }
 ];
 \`\`\`
 
@@ -62,7 +62,7 @@ after: "/site1-after.jpg",
 
 ## Local Development Setup
 
-To run this project locally, ensure you have Node.js installed.
+To run this project locally, ensure you have Node.js (v18 or higher) installed.
 
 1. **Clone the repository:**
    \`\`\`bash

@@ -4,10 +4,10 @@ This application is designed as a static Single Page Application (SPA) and utili
 
 ## Build Process
 
-The project is bundled and optimized using standard React build scripts.
+The project is bundled and optimized using standard Vite build scripts.
 
 - **Command:** `npm run build`
-- **Output:** Generates a highly optimized `/build` (or `/dist`) directory containing minified HTML, CSS, and JavaScript. Image assets in the `/public` directory are securely hashed and optimized for CDN delivery.
+- **Output:** Generates a highly optimized `/dist` directory containing minified HTML, CSS, and JavaScript. Image assets in the `/public` directory are securely hashed and optimized for CDN delivery.
 
 ## Hosting & CI/CD Setup
 
@@ -19,4 +19,4 @@ This repository is optimized for deployment on modern edge networks (e.g., Verce
 
 ## Environment Variables
 
-Currently, the Formspree contact form handles POST requests via a direct action URL. Should future API integrations be required, ensure all keys are stored in a `.env` file locally and securely added to the hosting provider's Environment Variables dashboard.
+Currently, the Formspree contact form handles POST requests via a direct action URL hardcoded into the component. No local `.env` variables are required to run or deploy this application. Should future backend API integrations be required, ensure all keys are stored in a `.env` file locally and securely added to the hosting provider's Environment Variables dashboard.

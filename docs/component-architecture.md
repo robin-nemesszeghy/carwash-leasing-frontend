@@ -2,6 +2,8 @@
 
 The `<Comparison />` component is the core interactive feature of the `carwash-leasing-frontend` application. It allows users to visually compare outdated wash bays with modernized setups using a draggable slider.
 
+**Props:** None. This component is self-contained and manages its own internal data and state.
+
 ## State Management
 
 This component utilizes React's `useState` hook to manage two primary pieces of state:
