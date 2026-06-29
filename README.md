@@ -47,16 +47,16 @@ The `washBays` array accepts an array of objects. Each object represents a disti
 
 **Example Implementation:**
 
-\`\`\`javascript
+```javascript
 const washBays = [
   {
     id: 1,
     title: "Tunnel / Bay",
     before: "/site1-before.png",
     after: "/site1-after.jpg",
-  }
+  },
 ];
-\`\`\`
+```
 
 > **Note:** Image assets must be stored in the root `/public` directory to be referenced via absolute paths (e.g., `/site1-before.png`). Images should ideally be cropped to a 16:9 aspect ratio prior to upload to prevent unexpected scaling.
 
@@ -65,20 +65,22 @@ const washBays = [
 To run this project locally, ensure you have Node.js (v18 or higher) installed.
 
 1. **Clone the repository:**
-   \`\`\`bash
+
+   ```bash
    git clone https://github.com/YourUsername/carwash-leasing-frontend.git
    cd carwash-leasing-frontend
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the development server:**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
    _The application will be available at your local host port._
 
 ## Deployment
@@ -86,7 +88,9 @@ To run this project locally, ensure you have Node.js (v18 or higher) installed.
 This application is optimized for static hosting platforms like Vercel, Netlify, or GitHub Pages.
 
 To generate a production-ready build:
-\`\`\`bash
+
+```bash
 npm run build
-\`\`\`
+```
+
 This will output minified, optimized static assets into the `/dist` directory.
