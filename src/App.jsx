@@ -231,6 +231,7 @@ const Comparison = () => {
             value={sliderPosition}
             onChange={(e) => setSliderPosition(e.target.value)}
             className="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-30"
+            aria-label="Before and after image comparison slider"
           />
         </div>
 
@@ -263,10 +264,10 @@ const Comparison = () => {
 
 const Criteria = () => {
   return (
-    <section className="py-20 bg-blue-600 text-white">
+    <section className="py-20 bg-blue-800 text-white">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-6">What We’re Looking For</h2>
-        <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg text-blue-50 max-w-2xl mx-auto mb-10 leading-relaxed">
           We are currently seeking In-Bay Automatics, Tunnels, and Self-Serve
           locations that are ready for a professional upgrade.
         </p>
